@@ -30,7 +30,7 @@ export default async function ServiceFeePage({ params }: ServiceFeePageProps) {
         <p className="text-sm text-muted-foreground mb-2">Last updated: July 4, 2026</p>
         <h1 className="text-3xl font-bold text-foreground mb-6">Service Fee Policy</h1>
         <p className="text-muted-foreground mb-10">
-          This Service Fee Policy sets out how service fees work across the services and products operated by Nijushi Digital, including any sub-products or derivative services (collectively, &quot;Services&quot;). It is issued as a standalone document, separate from the Terms of Service, but it is referenced by and forms a binding part of the Terms of Service.
+          This Service Fee Policy sets out how service fees work across the services and products operated by Nijushi Corp., including any sub-products or derivative services (collectively, &quot;Services&quot;). It is issued as a standalone document, separate from the Terms of Service, but it is referenced by and forms a binding part of the Terms of Service.
         </p>
 
         <Section title="1. What the Service Fee Covers">
@@ -38,7 +38,7 @@ export default async function ServiceFeePage({ params }: ServiceFeePageProps) {
         </Section>
 
         <Section title="2. Fees May Differ Between Services">
-          <p>Nijushi Digital may run more than one Service or digital product, either under the Nijushi Digital name or under a separate derivative brand. Because each Service has its own business model and operational cost structure, the service fee is not a single fixed number across all of them — it is set individually for each Service.</p>
+          <p>Nijushi Corp. may run more than one Service or digital product, either under the Nijushi Corp. name or under a separate derivative brand. Because each Service has its own business model and operational cost structure, the service fee is not a single fixed number across all of them — it is set individually for each Service.</p>
           <p className="mt-3">The exact fee for a given Service is published on that Service&apos;s own website, not on this page. Before transacting, please check the official pricing page of the specific Service you are using.</p>
         </Section>
 
@@ -61,7 +61,7 @@ export default async function ServiceFeePage({ params }: ServiceFeePageProps) {
         </Section>
 
         <Section title="4. Fees Can Change">
-          <p>Service fees, including the payment gateway fee component described above, may be revised from time to time by Nijushi Digital or by our payment gateway partner. Any revision will be reflected on the official fee page of the relevant Service.</p>
+          <p>Service fees, including the payment gateway fee component described above, may be revised from time to time by Nijushi Corp. or by our payment gateway partner. Any revision will be reflected on the official fee page of the relevant Service.</p>
         </Section>
 
         <Section title="5. Fees Are Non-Refundable">
@@ -73,7 +73,7 @@ export default async function ServiceFeePage({ params }: ServiceFeePageProps) {
         </Section>
 
         <Section title="7. Contact">
-          <p>Questions about this Policy can be sent to <a href="mailto:legal@nijushidigital.biz.id">legal@nijushidigital.biz.id</a> or through our <a href="/social">contact page</a>.</p>
+          <p>Questions about this Policy can be sent to <a href="mailto:legal@nijushicorp.biz.id">legal@nijushicorp.biz.id</a> or through our <a href="/social">contact page</a>.</p>
         </Section>
       </main>
       <Footer locale={locale} />

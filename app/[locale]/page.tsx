@@ -32,9 +32,7 @@ export default async function LocalizedHomePage({ params }: HomePageProps) {
       <Header locale={locale} />
       <main className="flex-1">
         <Hero locale={locale} />
-        <div className="border-t border-border" />
         <Features locale={locale} />
-        <div className="border-t border-border" />
         <SocialLinks locale={locale} />
         <CTA locale={locale} />
       </main>

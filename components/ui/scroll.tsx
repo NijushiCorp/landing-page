@@ -35,10 +35,10 @@ export function ScrollDownArrow({
       type="button"
       onClick={handleClick}
       aria-label={label}
-      className={`group cursor-pointer inline-flex flex-col items-center gap-2 text-muted-foreground transition-colors hover:text-orange-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 focus-visible:ring-offset-2 rounded-full ${className}`}
+      className={`group inline-flex cursor-pointer flex-col items-center gap-2 rounded-full text-muted-foreground transition-colors duration-200 hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-background ${className}`}
     >
-      <span className="flex h-10 w-10 items-center justify-center rounded-full group-hover:border-orange-500 transition-colors animate-bounce motion-reduce:animate-none">
-        <ChevronDown className="h-5 w-5" />
+      <span className="flex h-10 w-10 items-center justify-center rounded-full border border-border transition-colors duration-200 group-hover:border-accent">
+        <ChevronDown className="h-5 w-5 transition-transform duration-200 group-hover:translate-y-0.5" />
       </span>
     </button>
   )

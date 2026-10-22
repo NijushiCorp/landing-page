@@ -77,7 +77,7 @@ export function LoadingScreen({ onFinish }: { onFinish?: () => void }) {
       const timer = setTimeout(() => {
         setExit(true)
         onFinish?.()
-      }, 500)
+      }, 200)
       return () => clearTimeout(timer)
     }
   }, [progress, onFinish])
@@ -86,63 +86,58 @@ export function LoadingScreen({ onFinish }: { onFinish?: () => void }) {
 
   return (
     <div
-      className={`fixed inset-0 z-[9999] flex items-center justify-center transition-opacity duration-500 ${
+      className={`fixed inset-0 z-[9999] flex items-center justify-center transition-opacity duration-200 ${
         progress >= 100 ? 'opacity-0' : mounted ? 'opacity-100' : 'opacity-0'
-      }`}
+      } motion-reduce:transition-none`}
+      role="status"
+      aria-label="Loading Nijushi"
     >
-      {/* Animated gradient background */}
-      <div className="absolute inset-0 bg-background">
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(236,94,39,0.08)_0%,transparent_60%)] animate-pulse" />
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,rgba(26,31,77,0.06)_0%,transparent_50%)] dark:bg-[radial-gradient(ellipse_at_top_right,rgba(255,138,61,0.1)_0%,transparent_50%)]" />
-      </div>
+      <div className="absolute inset-0 bg-background" />
 
       {/* Content */}
-      <div className="relative flex flex-col items-center gap-8">
+      <div className="relative flex flex-col items-center gap-7">
         {/* Logo */}
-        <div className="relative">
-          {/* Glow ring */}
-          <div className="absolute -inset-6 rounded-full bg-accent/10 blur-xl animate-pulse" />
-          <div className="absolute -inset-3 rounded-full border border-accent/20 animate-[spin_4s_linear_infinite]" />
-
-          {/* Logo image */}
-          <div className="relative h-16 w-16 overflow-hidden rounded-2xl bg-accent/5 p-3 ring-1 ring-accent/20 backdrop-blur-sm">
-            <img
-              src="/logo-nijushi.png"
-              alt="Nijushi"
-              className="h-full w-full object-contain"
-            />
-          </div>
+        <div className="h-16 w-16">
+          <img
+            src="/logo.png"
+            alt=""
+            aria-hidden="true"
+            className="h-full w-full object-contain [html[data-theme=dark]_&]:hidden"
+          />
+          <img
+            src="/logo-dark.png"
+            alt=""
+            aria-hidden="true"
+            className="hidden h-full w-full object-contain [html[data-theme=dark]_&]:block"
+          />
         </div>
 
         {/* Brand name */}
         <div className="flex flex-col items-center gap-1">
-          <span className="text-lg font-semibold tracking-widest text-foreground/80">
-            NIJUSHI
+          <span className="text-lg font-semibold tracking-[0.12em] text-foreground">
+            Nijushi
           </span>
-          <span className="text-[10px] uppercase tracking-[0.3em] text-muted-foreground/60">
-            Digital Creative
+          <span className="text-xs -mt-1 tracking-wide text-muted-foreground">
+            Corp.
           </span>
         </div>
 
         {/* Progress bar */}
         <div className="w-48 space-y-2">
-          <div className="h-[2px] overflow-hidden rounded-full bg-accent/10">
+          <div
+            className="h-[3px] overflow-hidden rounded-full bg-border"
+            role="progressbar"
+            aria-label="Page loading progress"
+            aria-valuemin={0}
+            aria-valuemax={100}
+            aria-valuenow={Math.round(progress)}
+          >
             <div
-              className="h-full rounded-full bg-accent transition-all duration-300 ease-out"
+              className="h-full rounded-full bg-accent transition-[width] duration-200 ease-out motion-reduce:transition-none"
               style={{ width: `${progress}%` }}
             />
           </div>
-          {/* Shimmer overlay */}
-          <div
-            className="relative h-[2px] -translate-y-2 overflow-hidden rounded-full"
-            aria-hidden
-          >
-            <div
-              className="absolute inset-0 w-1/2 translate-x-[-100%] animate-[shimmer_1.5s_infinite] bg-gradient-to-r from-transparent via-accent/30 to-transparent"
-              style={{ left: `${progress}%` }}
-            />
-          </div>
-          <p className="text-center text-[10px] tabular-nums tracking-widest text-muted-foreground/40">
+          <p className="text-center text-xs tabular-nums text-muted-foreground">
             {Math.round(progress)}%
           </p>
         </div>

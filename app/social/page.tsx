@@ -16,11 +16,11 @@ export default function SocialPage() {
       <Header />
       <main className="flex-1 w-full overflow-x-hidden">
         {/* Title */}
-        <section className="max-w-3xl mx-auto px-4 py-15 text-center space-y-4">
+        <section className="max-w-3xl mx-auto px-4 py-16 sm:py-20 text-center space-y-4">
           <h1 className="text-4xl md:text-5xl font-bold text-foreground">Our Social Media</h1>
           <p className="text-md text-muted-foreground max-w-xl mx-auto">
             Stay connected and get the latest updates, news, and behind-the-scenes content
-            from Nijushi Digital through our official social media accounts below.
+            from Nijushi Corp. through our official social media accounts below.
           </p>
         </section>
 
@@ -38,7 +38,7 @@ export default function SocialPage() {
         </section>
 
         {/* Social list */}
-        <section className="max-w-7xl mx-auto px-4 py-15">
+        <section className="max-w-7xl mx-auto px-4 py-16 sm:py-20">
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 items-start">
             {socials.map((social) => (
               <SocialCard key={social.name} social={social} />
@@ -49,7 +49,7 @@ export default function SocialPage() {
         <div className="border-t border-border" />
 
         {/* Report fake account */}
-        <section className="max-w-3xl mx-auto px-4 py-15">
+        <section className="max-w-3xl mx-auto px-4 py-16 sm:py-20">
           <div className="bg-card/95 border border-border/80 rounded-xl shadow-sm p-8 md:p-10 text-center space-y-4">
             <div className="w-12 h-12 rounded-full bg-accent/10 flex items-center justify-center mx-auto">
               <ShieldAlert className="w-6 h-6 text-accent" />
@@ -58,7 +58,7 @@ export default function SocialPage() {
               Found a Fake Account?
             </h2>
             <p className="text-muted-foreground max-w-xl mx-auto">
-              If you come across an account impersonating Nijushi Digital or any of our
+              If you come across an account impersonating Nijushi Corp. or any of our
               brands, please report it to us through Nishia Customer Support so we can take
               action as soon as possible.
             </p>

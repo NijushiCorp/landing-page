@@ -6,6 +6,7 @@ import { ExternalLink, ArrowRight } from 'lucide-react'
 import { FaGithub } from 'react-icons/fa'
 import { projects } from '@/lib/projects'
 import { getDictionary, getLocalizedPath, type Locale } from '@/lib/i18n'
+import { SectionHeading } from './ui/section-heading'
 
 type FeaturesProps = {
   locale?: Locale
@@ -16,71 +17,70 @@ export function Features({ locale = 'en' }: FeaturesProps) {
   const productDict = getDictionary(locale).product
 
   return (
-    <section id="features" className="max-w-7xl mx-auto px-4 py-15 scroll-smooth scroll-mt-15">
-      <div className="text-center mb-16 space-y-4">
-        <h2 className="text-4xl md:text-5xl font-bold text-foreground">{dict.featuresTitle}</h2>
-        <p className="text-md text-muted-foreground max-w-xl mx-auto">
-          {dict.featuresDescription}
-        </p>
-      </div>
+    <section id="features" className="scroll-mt-20 bg-surface-tint">
+      <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-20 lg:px-8 lg:py-24">
+        <SectionHeading
+          layout="split"
+          title={dict.featuresTitle}
+          description={dict.featuresDescription}
+        />
 
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {projects.map((project) => (
-          <div
-            key={project.title}
-            className="bg-card/95 border border-border/80 rounded-xl shadow-sm p-8 hover:shadow-md transition group flex flex-col"
-          >
-            <div className="mb-4">
+        <div className="mt-10 grid gap-px overflow-hidden rounded-card border border-border bg-border sm:grid-cols-2">
+          {projects.map((project) => (
+            <article
+              key={project.title}
+              className="flex flex-col bg-surface p-6 transition-colors duration-200 hover:bg-background sm:p-8"
+            >
               <Image
                 src={project.logo}
                 alt={`${project.title} logo`}
                 width={48}
                 height={48}
-                className="rounded-md object-contain"
+                className="mb-5 h-12 w-12 rounded-md object-contain"
               />
-            </div>
 
-            <h3 className="text-xl font-semibold text-foreground mb-3">{project.title}</h3>
+              <h3 className="text-lg font-semibold text-foreground">{project.title}</h3>
 
-            <p className="text-muted-foreground leading-relaxed mb-6 flex-grow">
-              {project.description}
-            </p>
+              <p className="mt-2 mb-6 flex-grow text-sm leading-relaxed text-muted-foreground text-pretty">
+                {project.description}
+              </p>
 
-            <div className="flex items-center gap-4 mt-auto">
-              <a
-                href={project.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 text-sm font-medium text-accent hover:underline"
-              >
-                <ExternalLink className="w-4 h-4" />
-                {productDict.visitProduct}
-              </a>
-
-              {project.github && (
+              <div className="mt-auto flex flex-wrap items-center gap-x-5 gap-y-2">
                 <a
-                  href={project.github}
+                  href={project.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 text-sm font-medium text-foreground hover:underline"
+                  className="inline-flex items-center gap-1.5 text-sm font-medium text-accent transition-colors duration-200 hover:text-accent-strong"
                 >
-                  <FaGithub className="w-4 h-4" />
-                {productDict.github}
+                  <ExternalLink className="h-4 w-4" />
+                  {productDict.visitProduct}
                 </a>
-              )}
-            </div>
-          </div>
-        ))}
-      </div>
 
-      <div className="flex justify-center mt-12">
-        <Link
-          href={getLocalizedPath('/product', locale)}
-          className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-border text-foreground font-semibold hover:bg-accent hover:text-accent-foreground hover:border-accent transition-all duration-300 group"
-        >
-          {dict.featuresButton}
-          <ArrowRight className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" />
-        </Link>
+                {project.github && (
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1.5 text-sm font-medium text-muted-foreground transition-colors duration-200 hover:text-foreground"
+                  >
+                    <FaGithub className="h-4 w-4" />
+                    {productDict.github}
+                  </a>
+                )}
+              </div>
+            </article>
+          ))}
+        </div>
+
+        <div className="mt-10">
+          <Link
+            href={getLocalizedPath('/product', locale)}
+            className="group inline-flex items-center gap-2 text-base font-semibold text-foreground transition-colors duration-200 hover:text-accent"
+          >
+            {dict.featuresButton}
+            <ArrowRight className="h-4 w-4 transition-transform duration-200 group-hover:translate-x-1" />
+          </Link>
+        </div>
       </div>
     </section>
   )

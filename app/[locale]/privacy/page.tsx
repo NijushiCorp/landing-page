@@ -30,12 +30,12 @@ export default async function PrivacyPage({ params }: PrivacyPageProps) {
         <p className="text-sm text-muted-foreground mb-2">Last updated: June 14, 2025</p>
         <h1 className="text-3xl font-bold text-foreground mb-6">Privacy Policy</h1>
         <p className="text-muted-foreground mb-10">
-          This Privacy Policy applies to Nijushi Digital and all products, services, platforms, and digital solutions developed or operated by Nijushi Digital (collectively, &quot;Services&quot;). By using our Services, you agree to the practices described below.
+          This Privacy Policy applies to Nijushi Corp. and all products, services, platforms, and digital solutions developed or operated by Nijushi Corp. (collectively, &quot;Services&quot;). By using our Services, you agree to the practices described below.
         </p>
 
         <Section title="1. Who We Are">
           <p>
-            Nijushi Digital is a digital services company providing web development, mobile applications, UI/UX design, digital consulting, and related technology services. This policy covers our main platform and any sub-products or derivative services we operate under the Nijushi Digital brand.
+            Nijushi Corp. is a digital services company providing web development, mobile applications, UI/UX design, digital consulting, and related technology services. This policy covers our main platform and any sub-products or derivative services we operate under the Nijushi Corp. brand.
           </p>
         </Section>
 
@@ -77,7 +77,7 @@ export default async function PrivacyPage({ params }: PrivacyPageProps) {
             <li>Object to or restrict certain types of processing.</li>
             <li>Withdraw consent at any time where processing is based on consent.</li>
           </ul>
-          <p className="mt-3">To exercise any of these rights, contact us at <a href="mailto:privacy@nijushidigital.biz.id" className="text-orange-500 hover:underline">privacy@nijushidigital.biz.id</a>.</p>
+          <p className="mt-3">To exercise any of these rights, contact us at <a href="mailto:privacy@nijushicorp.biz.id" className="text-accent hover:underline">privacy@nijushicorp.biz.id</a>.</p>
         </Section>
 
         <Section title="7. Security">
@@ -93,7 +93,7 @@ export default async function PrivacyPage({ params }: PrivacyPageProps) {
         </Section>
 
         <Section title="10. Contact">
-          <p>Questions about this policy? Reach us at <a href="mailto:privacy@nijushidigital.biz.id" className="text-orange-500 hover:underline">privacy@nijushidigital.biz.id</a> or through our <a href="/social" className="text-orange-500 hover:underline">contact page</a>.</p>
+          <p>Questions about this policy? Reach us at <a href="mailto:privacy@nijushicorp.biz.id" className="text-accent hover:underline">privacy@nijushicorp.biz.id</a> or through our <a href="/social" className="text-accent hover:underline">contact page</a>.</p>
         </Section>
       </main>
       <Footer locale={locale} />

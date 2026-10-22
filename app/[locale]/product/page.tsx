@@ -33,7 +33,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
     <div className="min-h-screen bg-background text-foreground flex flex-col">
       <Header locale={locale} />
       <main className="flex-1">
-        <section className="max-w-7xl mx-auto px-4 py-15">
+        <section className="max-w-7xl mx-auto px-4 py-16 sm:py-20">
           <div className="text-center mb-16 space-y-4">
             <h1 className="text-4xl md:text-5xl font-bold text-foreground">{dict.title}</h1>
             <p className="text-md text-muted-foreground max-w-xl mx-auto">{dict.description}</p>

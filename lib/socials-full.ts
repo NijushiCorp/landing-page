@@ -46,18 +46,18 @@ export const socials: SocialEntry[] = [
   {
     name: 'GitHub',
     icon: 'github',
-    accounts: [{ label: 'GitHub', url: 'https://github.com/NijushiDigital' }],
+    accounts: [{ label: 'GitHub', url: 'https://github.com/nijushicorp' }],
   },
   {
     name: 'X',
     icon: 'x',
-    accounts: [{ label: 'X (Twitter)', url: 'https://x.com/nijushidigital' }],
+    accounts: [{ label: 'X (Twitter)', url: 'https://x.com/nijushicorp' }],
   },
   {
     name: 'Instagram',
     icon: 'instagram',
     accounts: [
-      { label: 'Nijushi Digital', url: 'https://instagram.com/nijushidigital' },
+      { label: 'Nijushi Corp.', url: 'https://instagram.com/nijushicorp' },
       { label: 'RukoGamer', url: 'https://instagram.com/officialrukogamer' },
     ],
   },
@@ -65,7 +65,7 @@ export const socials: SocialEntry[] = [
     name: 'LinkedIn',
     icon: 'linkedin',
     accounts: [
-      { label: 'Nijushi Digital', url: 'https://www.linkedin.com/company/nijushidigital/' },
+      { label: 'Nijushi Corp.', url: 'https://www.linkedin.com/company/nijushicorp/' },
       { label: 'RukoGamer', url: 'https://www.linkedin.com/company/rukogamer/' },
     ],
   },

@@ -2,8 +2,8 @@ import { Header } from '@/components/header'
 import { Footer } from '@/components/footer'
 
 export const metadata = {
-  title: 'Cookie Policy — Nijushi Digital',
-  description: 'How Nijushi Digital uses cookies and similar tracking technologies.',
+  title: 'Cookie Policy — Nijushi Corp.',
+  description: 'How Nijushi Corp. uses cookies and similar tracking technologies.',
 }
 
 export default function CookiesPage() {
@@ -14,7 +14,7 @@ export default function CookiesPage() {
       <p className="text-sm text-muted-foreground mb-2">Last updated: June 20, 2025</p>
       <h1 className="text-3xl font-bold text-foreground mb-6">Cookie Policy</h1>
       <p className="text-muted-foreground mb-10">
-        This Cookie Policy explains how Nijushi Digital uses cookies and similar technologies across
+        This Cookie Policy explains how Nijushi Corp. uses cookies and similar technologies across
         our website and all digital products and services we operate. By using our Services, you
         consent to the use of cookies as described here.
       </p>
@@ -59,8 +59,8 @@ export default function CookiesPage() {
 
       <Section title="4. Cookies Across Our Products">
         <p>
-          This policy applies to Nijushi Digital (nijushidigital.biz.id) and all sub-products, platforms, and derivative
-          digital services operated by Nijushi Digital, whether under the same domain or separate
+          This policy applies to Nijushi Corp. (nijushicorp.biz.id) and all sub-products, platforms, and derivative
+          digital services operated by Nijushi Corp., whether under the same domain or separate
           branded domains. Each product may use different combinations of the cookie categories
           above, always in accordance with this policy.
         </p>
@@ -106,11 +106,11 @@ export default function CookiesPage() {
       <Section title="8. Contact">
         <p>
           Questions about how we use cookies? Contact us at{' '}
-          <a href="mailto:privacy@nijushidigital.biz.id" className="text-orange-500 hover:underline">
-            privacy@nijushidigital.biz.id
+          <a href="mailto:privacy@nijushicorp.biz.id" className="text-accent hover:underline">
+            privacy@nijushicorp.biz.id
           </a>{' '}
           or through our{' '}
-          <a href="/social" className="text-orange-500 hover:underline">
+          <a href="/social" className="text-accent hover:underline">
             contact page
           </a>
           .

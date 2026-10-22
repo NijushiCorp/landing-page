@@ -7,10 +7,10 @@ export const projects = [
     github: null,
   },
   {
-    logo: 'https://sometipfor.me/favicon.ico',
-    title: 'sometipfor.me',
+    logo: 'https://tipbox.idS/favicon.ico',
+    title: 'TipBox',
     description: 'Leave that donation platform, because Sometipfor.me allows you to get tips from your fans with cheap fees and no limits',
-    link: 'https://sometipfor.me',
+    link: 'https://tipbox.id',
     github: null, // kalau gak ada github, set null
   },
   // ... tambah project lain

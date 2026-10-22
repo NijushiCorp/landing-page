@@ -30,15 +30,15 @@ export default async function TermsPage({ params }: TermsPageProps) {
         <p className="text-sm text-muted-foreground mb-2">Last updated: July 4, 2026</p>
         <h1 className="text-3xl font-bold text-foreground mb-6">Terms of Service</h1>
         <p className="text-muted-foreground mb-10">
-          These Terms of Service govern your use of all services, platforms, and digital products provided by Nijushi Digital, including any sub-products or derivative services (collectively, &quot;Services&quot;). By accessing or using our Services, you agree to be bound by these terms.
+          These Terms of Service govern your use of all services, platforms, and digital products provided by Nijushi Corp., including any sub-products or derivative services (collectively, &quot;Services&quot;). By accessing or using our Services, you agree to be bound by these terms.
         </p>
 
         <Section title="1. Acceptance of Terms">
-          <p>By using any Nijushi Digital Service — whether as a client, end user, or visitor — you confirm that you are at least 18 years old and have the legal authority to agree to these terms on behalf of yourself or your organization.</p>
+          <p>By using any Nijushi Corp. Service — whether as a client, end user, or visitor — you confirm that you are at least 18 years old and have the legal authority to agree to these terms on behalf of yourself or your organization.</p>
         </Section>
 
         <Section title="2. Description of Services">
-          <p>Nijushi Digital provides digital services including but not limited to web development, mobile application development, UI/UX design, digital strategy, and technology consulting. We also develop and operate digital products and platforms, which may be offered under separate branding as derivative services of Nijushi Digital.</p>
+          <p>Nijushi Corp. provides digital services including but not limited to web development, mobile application development, UI/UX design, digital strategy, and technology consulting. We also develop and operate digital products and platforms, which may be offered under separate branding as derivative services of Nijushi Corp.</p>
           <p className="mt-3">These terms apply equally to all current and future Services unless a specific Service has its own supplementary terms, in which case both sets of terms apply together.</p>
         </Section>
 
@@ -54,19 +54,19 @@ export default async function TermsPage({ params }: TermsPageProps) {
         </Section>
 
         <Section title="4. Intellectual Property">
-          <p>All content, designs, code, branding, and materials produced by Nijushi Digital remain the intellectual property of Nijushi Digital unless explicitly transferred in a signed agreement. Work delivered to clients is subject to the terms of the project contract.</p>
+          <p>All content, designs, code, branding, and materials produced by Nijushi Corp. remain the intellectual property of Nijushi Corp. unless explicitly transferred in a signed agreement. Work delivered to clients is subject to the terms of the project contract.</p>
           <p className="mt-3">You may not reproduce, distribute, or create derivative works from our proprietary materials without written permission.</p>
         </Section>
 
         <Section title="5. Client Deliverables">
-          <p>Ownership of deliverables produced for clients (websites, apps, designs) transfers to the client upon full payment as agreed in the project contract. Nijushi Digital retains the right to display the work in its portfolio unless otherwise agreed in writing.</p>
+          <p>Ownership of deliverables produced for clients (websites, apps, designs) transfers to the client upon full payment as agreed in the project contract. Nijushi Corp. retains the right to display the work in its portfolio unless otherwise agreed in writing.</p>
         </Section>
 
         <Section title="6. Payment and Billing">
           <p>Payment terms are defined in individual project agreements or subscription plans. Invoices are due within the period stated. Late payments may incur fees or result in suspension of Services. All fees are non-refundable unless stated otherwise in your agreement.</p>
           <p className="mt-3">
             Our Services may also be subject to a service fee, which may include a payment gateway fee component for transactions processed online. The specific amount of the service fee varies by Service and is detailed on the official page of the relevant Service. The full terms governing these fees are set out in our{' '}
-            <a href="/service-fee" className="text-orange-500 hover:underline">
+            <a href="/service-fee" className="text-accent hover:underline">
               Service Fee Policy
             </a>
             , which forms an integral part of these Terms of Service.
@@ -74,7 +74,7 @@ export default async function TermsPage({ params }: TermsPageProps) {
         </Section>
 
         <Section title="7. Limitation of Liability">
-          <p>Nijushi Digital provides Services &quot;as is.&quot; We are not liable for indirect, incidental, or consequential damages arising from your use of our Services, including loss of revenue, data, or business opportunities, even if we were advised of the possibility of such damages.</p>
+          <p>Nijushi Corp. provides Services &quot;as is.&quot; We are not liable for indirect, incidental, or consequential damages arising from your use of our Services, including loss of revenue, data, or business opportunities, even if we were advised of the possibility of such damages.</p>
           <p className="mt-3">Our total liability for any claim shall not exceed the amount paid by you for the relevant Service in the three months preceding the claim.</p>
         </Section>
 
@@ -91,7 +91,7 @@ export default async function TermsPage({ params }: TermsPageProps) {
         </Section>
 
         <Section title="11. Contact">
-          <p>For questions about these terms, contact us at <a href="mailto:legal@nijushidigital.biz.id" className="text-orange-500 hover:underline">legal@nijushidigital.biz.id</a> or through our <a href="/social" className="text-orange-500 hover:underline">contact page</a>.</p>
+          <p>For questions about these terms, contact us at <a href="mailto:legal@nijushicorp.biz.id" className="text-accent hover:underline">legal@nijushicorp.biz.id</a> or through our <a href="/social" className="text-accent hover:underline">contact page</a>.</p>
         </Section>
       </main>
       <Footer locale={locale} />

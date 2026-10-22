@@ -33,7 +33,7 @@ export default async function SocialPage({ params }: SocialPageProps) {
 <div className="min-h-screen bg-background text-foreground flex flex-col">
   <Header locale={locale} />
   <main className="flex-1 w-full">
-        <section className="max-w-3xl mx-auto px-4 py-15 text-center space-y-4">
+        <section className="max-w-3xl mx-auto px-4 py-16 sm:py-20 text-center space-y-4">
           <h1 className="text-4xl md:text-5xl font-bold text-foreground">{dict.title}</h1>
           <p className="text-md text-muted-foreground max-w-xl mx-auto">{dict.description}</p>
         </section>
@@ -45,7 +45,7 @@ export default async function SocialPage({ params }: SocialPageProps) {
           </div>
         </section>
 
-        <section className="max-w-7xl mx-auto px-4 py-15">
+        <section className="max-w-7xl mx-auto px-4 py-16 sm:py-20">
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 items-start">
             {socials.map((social) => (
               <SocialCard key={social.name} social={social} />
@@ -55,7 +55,7 @@ export default async function SocialPage({ params }: SocialPageProps) {
 
         <div className="border-t border-border" />
 
-        <section className="max-w-3xl mx-auto px-4 py-15">
+        <section className="max-w-3xl mx-auto px-4 py-16 sm:py-20">
           <div className="bg-card/95 border border-border/80 rounded-xl shadow-sm p-8 md:p-10 text-center space-y-4">
             <div className="w-12 h-12 rounded-full bg-accent/10 flex items-center justify-center mx-auto">
               <ShieldAlert className="w-6 h-6 text-accent" />

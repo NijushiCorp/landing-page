@@ -9,7 +9,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Product',
-  description: 'Explore the full list of products and services built by Nijushi Digital.',
+  description: 'Explore the full list of products and services built by Nijushi Corp.',
 }
 
 export default function ProductPage() {
@@ -17,11 +17,11 @@ export default function ProductPage() {
     <div className="min-h-screen bg-background text-foreground flex flex-col">
       <Header />
       <main className="flex-1">
-        <section className="max-w-7xl mx-auto px-4 py-15">
+        <section className="max-w-7xl mx-auto px-4 py-16 sm:py-20">
           <div className="text-center mb-16 space-y-4">
             <h1 className="text-4xl md:text-5xl font-bold text-foreground">Our Products</h1>
             <p className="text-md text-muted-foreground max-w-xl mx-auto">
-              A full list of products, websites, and tools that Nijushi Digital has built and
+              A full list of products, websites, and tools that Nijushi Corp. has built and
               maintained to help individuals and businesses find #YourDecision.
             </p>
           </div>

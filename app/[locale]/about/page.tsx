@@ -33,7 +33,7 @@ export default async function AboutPage({ params }: AboutPageProps) {
     <div className="min-h-screen bg-background text-foreground flex flex-col">
       <Header locale={locale} />
       <main className="flex-1">
-        <section className="max-w-3xl mx-auto px-4 pt-30 pb-15 text-center space-y-4">
+        <section className="max-w-3xl mx-auto px-4 pt-16 pb-12 sm:pt-24 sm:pb-16 text-center space-y-4">
             <div>
           <h1 className="text-5xl md:text-6xl font-bold text-foreground text-balance leading-tight">
             {locale === 'id' ? 'Bukan Hanya Tentang Kami,' : 'Not Just About Us,'}
@@ -41,7 +41,7 @@ export default async function AboutPage({ params }: AboutPageProps) {
           <h1 className="text-5xl md:text-6xl font-bold text-foreground text-balance leading-tight">
             {locale === 'id' ? 'Tapi Tentang ' : 'It\'s About '}
             <span className="relative inline-block px-2 py-1">
-            <span className="absolute inset-0 bg-amber-300/70 -rotate-1 rounded-sm" />
+            <span className="absolute inset-0 -rotate-1 rounded-sm bg-accent/25" />
             <span className="relative text-foreground">{locale === 'id' ? 'Anda' : 'You'}</span>
           </span>
           </h1>
@@ -49,12 +49,12 @@ export default async function AboutPage({ params }: AboutPageProps) {
           <p className="text-md md:text-lg text-muted-foreground text-balance">
             {dict.heroDescription}
           </p>
-        <ScrollDownArrow target="#vision" className="mt-15"/>
+        <ScrollDownArrow target="#vision" className="mt-8"/>
         </section>
 
         <div className="border-t border-border" />
 
-        <section id="vision" className="scroll-smooth scroll-mt-20 max-w-4xl mx-auto px-4 py-15 text-center space-y-4">
+        <section id="vision" className="scroll-smooth scroll-mt-20 max-w-4xl mx-auto px-4 py-16 sm:py-20 text-center space-y-4">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground">{dict.visionTitle}</h2>
           <p className="text-4xl md:text-5xl font-semibold text-foreground text-balance">
             {dict.visionLead}

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://nijushidigital.biz.id/sitemap.xml
+Sitemap: https://nijushicorp.biz.id/sitemap.xml

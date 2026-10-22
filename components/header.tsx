@@ -129,81 +129,67 @@ export function Header({ locale }: HeaderProps) {
   return (
   <>
     <header
-      className={`sticky z-50 px-3 transition-all duration-200 ease-in-out ${
+      className={`sticky top-0 z-50 border-b transition-colors duration-200 ${
         scrolled
-          ? 'top-3 w-[calc(100%-1.5rem)] max-w-7xl mx-auto rounded-full border border-border bg-background/80 backdrop-blur-md shadow-lg'
-          : 'top-0 w-full max-w-full mx-auto rounded-none border border-transparent bg-background/0 backdrop-blur-md shadow-none'
+          ? 'border-border bg-surface/95 backdrop-blur-sm'
+          : 'border-transparent bg-background'
       }`}
     >
       <div
-        className={`mx-auto grid grid-cols-[1fr_auto_1fr] items-center transition-all duration-300 ease-in-out ${
-          scrolled ? 'max-w-7xl px-4 sm:px-6 py-3' : 'max-w-full md:max-w-7xl px-4 sm:px-5 md:px-7 py-5'
+        className={`mx-auto grid max-w-6xl grid-cols-[1fr_auto_1fr] items-center px-4 transition-[padding] duration-200 ease-out sm:px-6 lg:px-8 ${
+          scrolled ? 'py-5' : 'py-4'
         }`}
       >
           <Link href={getLocalizedPath('/', resolvedLocale)} className="justify-self-start min-w-0">
             <div className="flex items-center gap-2 sm:gap-3 min-w-0">
               <Image
                 src="/logo.png"
-                alt="Nijushi Digital Logo"
+                alt="Nijushi Corp. Logo"
                 width={48}
                 height={48}
                 className="w-7 h-7 sm:w-8 sm:h-8 shrink-0"
               />
-              <span className="text-xs sm:text-md md:text-xl font-bold text-foreground whitespace-nowrap truncate">Nijushi Digital</span>
+              <span className="text-xs sm:text-md md:text-xl font-bold text-foreground whitespace-nowrap truncate">Nijushi Corp.</span>
             </div>
           </Link>
 
-          <nav
-            className={`hidden lg:flex items-center justify-self-center transition-all duration-300 ease-in-out ${
-              scrolled ? 'gap-4' : 'gap-6'
-            }`}
-          >
+          <nav className="hidden items-center justify-self-center gap-7 lg:flex">
             {navLinks.map((link) => (
               <Link
                 key={link.name}
                 href={getLocalizedPath(link.href, resolvedLocale)}
-                className="group relative inline-block whitespace-nowrap text-foreground py-1"
+                className="group relative inline-block whitespace-nowrap py-1 text-sm font-medium text-muted-foreground transition-colors duration-200 hover:text-foreground"
               >
                 {link.name}
-                <span className="pointer-events-none absolute left-1/2 bottom-0 h-[1.5px] w-full origin-center -translate-x-1/2 scale-x-0 bg-accent transition-transform duration-300 ease-out group-hover:scale-x-100" />
+                <span className="pointer-events-none absolute bottom-0 left-1/2 h-px w-full origin-center -translate-x-1/2 scale-x-0 bg-accent transition-transform duration-200 ease-out group-hover:scale-x-100" />
               </Link>
             ))}
           </nav>
 
-          <div
-            className={`hidden lg:flex items-center justify-self-end transition-all duration-300 ease-in-out ${
-              scrolled ? 'gap-4' : 'gap-4'
-            }`}
-          >
+          <div className="hidden items-center justify-self-end gap-3 lg:flex">
 
             <button
               type="button"
               onClick={switchLanguage}
-              className="text-lg cursor-pointer font-medium text-muted-foreground hover:text-foreground border border-border rounded-2xl transition"
+              className="inline-flex h-9 cursor-pointer items-center gap-2 rounded-lg border border-border px-3 text-sm font-medium text-muted-foreground transition-colors duration-200 hover:border-foreground/30 hover:text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background"
             >
-              <div className="px-3">
-              {resolvedLocale === 'id' ? (
+              {resolvedLocale === 'en' ? (
                 <>
-                <div className="flex items-center gap-2">
-                <ReactCountryFlag countryCode="US" className="" svg />
-                <span>EN</span>
-                </div>
+                  <ReactCountryFlag countryCode="US" svg />
+                  <span>EN</span>
                 </>
               ) : (
                 <>
-                <div className="flex items-center gap-2">
-                <ReactCountryFlag countryCode="ID" className="" svg />
-                <span>ID</span>
-                </div>
+                  <ReactCountryFlag countryCode="ID" svg />
+                  <span>ID</span>
                 </>
               )}
-              </div>
             </button>
 
 
             <Link
               href={getLocalizedPath('/social', resolvedLocale)}
-              className="px-4 py-2 rounded-md bg-orange-500 hover:bg-orange-600 text-white font-medium transition-colors duration-200 whitespace-nowrap"
+              className="inline-flex h-9 items-center rounded-lg bg-accent px-4 text-sm font-semibold text-accent-foreground transition-colors duration-200 hover:bg-accent-strong focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-background whitespace-nowrap"
             >
               {resolvedLocale === 'id' ? 'Hubungi Kami' : 'Contact Us'}
             </Link>
@@ -215,30 +201,24 @@ export function Header({ locale }: HeaderProps) {
             <button
               type="button"
               onClick={switchLanguage}
-              className="text-xs sm:text-sm md:text-lg font-medium text-muted-foreground hover:text-foreground border border-border rounded-2xl transition shrink-0"
+              className="inline-flex h-8 shrink-0 cursor-pointer items-center gap-1.5 rounded-lg border border-border px-2 text-xs font-medium text-muted-foreground transition-colors duration-200 hover:text-foreground sm:px-3 sm:text-sm"
             >
-              <div className="px-2 sm:px-3">
               {resolvedLocale === 'id' ? (
                 <>
-                <div className="flex items-center gap-1 sm:gap-2">
-                <ReactCountryFlag countryCode="US" className="" svg />
-                <span>EN</span>
-                </div>
+                  <ReactCountryFlag countryCode="US" svg />
+                  <span>EN</span>
                 </>
               ) : (
                 <>
-                <div className="flex items-center gap-1 sm:gap-2">
-                <ReactCountryFlag countryCode="ID" className="" svg />
-                <span>ID</span>
-                </div>
+                  <ReactCountryFlag countryCode="ID" svg />
+                  <span>ID</span>
                 </>
               )}
-              </div>
             </button>
 
             <button
               onClick={openMenu}
-              className="p-2 -mr-2 text-foreground cursor-pointer hover:text-accent transition-colors duration-300 shrink-0"
+              className="-mr-2 shrink-0 cursor-pointer p-2 text-foreground transition-colors duration-200 hover:text-accent"
               aria-label="Open menu"
             >
               <Menu className="w-7 h-7" />
@@ -263,33 +243,33 @@ export function Header({ locale }: HeaderProps) {
                 : 'animate-in slide-in-from-right ease-out'
             }`}
           >
-            <div className="flex items-center justify-between px-6 py-5 border-b border-border shrink-0">
+            <div className="flex shrink-0 items-center justify-between border-b border-border px-6 py-4">
               <div className="flex items-center gap-3">
                 <Image
                   src="/logo.png"
-                  alt="Nijushi Digital Logo"
+                  alt="Nijushi Corp. Logo"
                   width={48}
                   height={48}
                   className="w-7 h-7"
                 />
-                <span className="text-base font-bold text-foreground">Nijushi Digital</span>
+                <span className="text-base font-bold text-foreground">Nijushi Corp.</span>
               </div>
               <button
                 onClick={closeMenu}
-                className="p-2 -mr-2 text-foreground hover:rotate-90 transition-transform duration-300 cursor-pointer hover:text-accent transition-colors duration-300"
+                className="-mr-2 cursor-pointer p-2 text-foreground transition-transform duration-200 hover:text-accent"
                 aria-label="Close menu"
               >
                 <X className="w-6 h-6" />
               </button>
             </div>
 
-            <nav className="flex flex-col px-6 py-6 overflow-y-auto flex-1">
+            <nav className="flex flex-1 flex-col overflow-y-auto px-6 py-4">
               {navLinks.map((link, index) => (
                 <Link
                   key={link.name}
                   href={getLocalizedPath(link.href, resolvedLocale)}
                   onClick={closeMenu}
-                  className={`text-lg font-medium text-foreground py-4 border-b border-border hover:text-accent hover:pl-2 transition-all duration-300 fill-mode-backwards ${
+                  className={`border-b border-border py-4 text-base font-medium text-foreground transition-colors duration-200 hover:text-accent fill-mode-backwards ${
                     isClosing
                       ? 'animate-out fade-out slide-out-to-right-8'
                       : 'animate-in fade-in slide-in-from-right-8'
@@ -308,7 +288,7 @@ export function Header({ locale }: HeaderProps) {
               <Link
                 href={getLocalizedPath('/social', resolvedLocale)}
                 onClick={closeMenu}
-                className={`mt-6 text-center text-lg font-semibold text-white bg-orange-500 hover:bg-orange-600 py-3 rounded-md transition-colors duration-200 fill-mode-backwards ${
+                className={`mt-6 rounded-lg bg-accent py-2.5 text-center text-lg font-semibold text-accent-foreground transition-colors duration-200 hover:bg-accent-strong fill-mode-backwards ${
                   isClosing
                     ? 'animate-out fade-out slide-out-to-right-8'
                     : 'animate-in fade-in slide-in-from-right-8'

@@ -2,152 +2,152 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
-  <!-- ===== nijushidigital.biz.id (non-www) ===== -->
+  <!-- ===== nijushicorp.biz.id (non-www) ===== -->
 
   <url>
-    <loc>https://nijushidigital.biz.id/</loc>
+    <loc>https://nijushicorp.biz.id/</loc>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="id" href="https://nijushidigital.biz.id/id" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://nijushidigital.biz.id/en" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nijushidigital.biz.id/en" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://nijushicorp.biz.id/id" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://nijushicorp.biz.id/en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nijushicorp.biz.id/en" />
   </url>
 
   <url>
-    <loc>https://nijushidigital.biz.id/about</loc>
+    <loc>https://nijushicorp.biz.id/about</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="id" href="https://nijushidigital.biz.id/id/about" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://nijushidigital.biz.id/en/about" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nijushidigital.biz.id/en/about" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://nijushicorp.biz.id/id/about" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://nijushicorp.biz.id/en/about" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nijushicorp.biz.id/en/about" />
   </url>
 
   <url>
-    <loc>https://nijushidigital.biz.id/product</loc>
+    <loc>https://nijushicorp.biz.id/product</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="id" href="https://nijushidigital.biz.id/id/product" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://nijushidigital.biz.id/en/product" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nijushidigital.biz.id/en/product" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://nijushicorp.biz.id/id/product" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://nijushicorp.biz.id/en/product" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nijushicorp.biz.id/en/product" />
   </url>
 
   <url>
-    <loc>https://nijushidigital.biz.id/social</loc>
+    <loc>https://nijushicorp.biz.id/social</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
-    <xhtml:link rel="alternate" hreflang="id" href="https://nijushidigital.biz.id/id/social" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://nijushidigital.biz.id/en/social" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nijushidigital.biz.id/en/social" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://nijushicorp.biz.id/id/social" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://nijushicorp.biz.id/en/social" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nijushicorp.biz.id/en/social" />
   </url>
 
   <url>
-    <loc>https://nijushidigital.biz.id/privacy</loc>
+    <loc>https://nijushicorp.biz.id/privacy</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
-    <xhtml:link rel="alternate" hreflang="id" href="https://nijushidigital.biz.id/id/privacy" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://nijushidigital.biz.id/en/privacy" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nijushidigital.biz.id/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://nijushicorp.biz.id/id/privacy" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://nijushicorp.biz.id/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nijushicorp.biz.id/en/privacy" />
   </url>
 
   <url>
-    <loc>https://nijushidigital.biz.id/terms</loc>
+    <loc>https://nijushicorp.biz.id/terms</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
-    <xhtml:link rel="alternate" hreflang="id" href="https://nijushidigital.biz.id/id/terms" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://nijushidigital.biz.id/en/terms" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nijushidigital.biz.id/en/terms" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://nijushicorp.biz.id/id/terms" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://nijushicorp.biz.id/en/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nijushicorp.biz.id/en/terms" />
   </url>
 
   <url>
-    <loc>https://nijushidigital.biz.id/cookie-policy</loc>
+    <loc>https://nijushicorp.biz.id/cookie-policy</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
-    <xhtml:link rel="alternate" hreflang="id" href="https://nijushidigital.biz.id/id/cookie-policy" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://nijushidigital.biz.id/en/cookie-policy" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nijushidigital.biz.id/en/cookie-policy" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://nijushicorp.biz.id/id/cookie-policy" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://nijushicorp.biz.id/en/cookie-policy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nijushicorp.biz.id/en/cookie-policy" />
   </url>
 
   <url>
-    <loc>https://nijushidigital.biz.id/service-fee</loc>
+    <loc>https://nijushicorp.biz.id/service-fee</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
-    <xhtml:link rel="alternate" hreflang="id" href="https://nijushidigital.biz.id/id/service-fee" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://nijushidigital.biz.id/en/service-fee" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nijushidigital.biz.id/en/service-fee" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://nijushicorp.biz.id/id/service-fee" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://nijushicorp.biz.id/en/service-fee" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nijushicorp.biz.id/en/service-fee" />
   </url>
 
-  <!-- ===== www.nijushidigital.biz.id ===== -->
+  <!-- ===== www.nijushicorp.biz.id ===== -->
 
   <url>
-    <loc>https://www.nijushidigital.biz.id/</loc>
+    <loc>https://www.nijushicorp.biz.id/</loc>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="id" href="https://www.nijushidigital.biz.id/id" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.nijushidigital.biz.id/en" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.nijushidigital.biz.id/en" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.nijushicorp.biz.id/id" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nijushicorp.biz.id/en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.nijushicorp.biz.id/en" />
   </url>
 
   <url>
-    <loc>https://www.nijushidigital.biz.id/about</loc>
+    <loc>https://www.nijushicorp.biz.id/about</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="id" href="https://www.nijushidigital.biz.id/id/about" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.nijushidigital.biz.id/en/about" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.nijushidigital.biz.id/en/about" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.nijushicorp.biz.id/id/about" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nijushicorp.biz.id/en/about" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.nijushicorp.biz.id/en/about" />
   </url>
 
   <url>
-    <loc>https://www.nijushidigital.biz.id/product</loc>
+    <loc>https://www.nijushicorp.biz.id/product</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="id" href="https://www.nijushidigital.biz.id/id/product" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.nijushidigital.biz.id/en/product" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.nijushidigital.biz.id/en/product" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.nijushicorp.biz.id/id/product" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nijushicorp.biz.id/en/product" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.nijushicorp.biz.id/en/product" />
   </url>
 
   <url>
-    <loc>https://www.nijushidigital.biz.id/social</loc>
+    <loc>https://www.nijushicorp.biz.id/social</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
-    <xhtml:link rel="alternate" hreflang="id" href="https://www.nijushidigital.biz.id/id/social" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.nijushidigital.biz.id/en/social" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.nijushidigital.biz.id/en/social" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.nijushicorp.biz.id/id/social" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nijushicorp.biz.id/en/social" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.nijushicorp.biz.id/en/social" />
   </url>
 
   <url>
-    <loc>https://www.nijushidigital.biz.id/privacy</loc>
+    <loc>https://www.nijushicorp.biz.id/privacy</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
-    <xhtml:link rel="alternate" hreflang="id" href="https://www.nijushidigital.biz.id/id/privacy" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.nijushidigital.biz.id/en/privacy" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.nijushidigital.biz.id/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.nijushicorp.biz.id/id/privacy" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nijushicorp.biz.id/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.nijushicorp.biz.id/en/privacy" />
   </url>
 
   <url>
-    <loc>https://www.nijushidigital.biz.id/terms</loc>
+    <loc>https://www.nijushicorp.biz.id/terms</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
-    <xhtml:link rel="alternate" hreflang="id" href="https://www.nijushidigital.biz.id/id/terms" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.nijushidigital.biz.id/en/terms" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.nijushidigital.biz.id/en/terms" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.nijushicorp.biz.id/id/terms" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nijushicorp.biz.id/en/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.nijushicorp.biz.id/en/terms" />
   </url>
 
   <url>
-    <loc>https://www.nijushidigital.biz.id/cookie-policy</loc>
+    <loc>https://www.nijushicorp.biz.id/cookie-policy</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
-    <xhtml:link rel="alternate" hreflang="id" href="https://www.nijushidigital.biz.id/id/cookie-policy" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.nijushidigital.biz.id/en/cookie-policy" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.nijushidigital.biz.id/en/cookie-policy" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.nijushicorp.biz.id/id/cookie-policy" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nijushicorp.biz.id/en/cookie-policy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.nijushicorp.biz.id/en/cookie-policy" />
   </url>
 
   <url>
-    <loc>https://www.nijushidigital.biz.id/service-fee</loc>
+    <loc>https://www.nijushicorp.biz.id/service-fee</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
-    <xhtml:link rel="alternate" hreflang="id" href="https://www.nijushidigital.biz.id/id/service-fee" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.nijushidigital.biz.id/en/service-fee" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.nijushidigital.biz.id/en/service-fee" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.nijushicorp.biz.id/id/service-fee" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nijushicorp.biz.id/en/service-fee" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.nijushicorp.biz.id/en/service-fee" />
   </url>
 
 </urlset>

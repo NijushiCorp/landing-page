@@ -61,7 +61,7 @@ export function getLocalizedMetadata(
     openGraph: {
       title: metadataTitle,
       description,
-      url: `https://nijushidigital.biz.id${canonicalPath}`,
+      url: `https://nijushicorp.biz.id${canonicalPath}`,
     },
   }
 }
@@ -83,11 +83,11 @@ const dictionaries = {
       scrollLanjut: 'Scroll Untuk Melanjutkan Membaca',
       featuresTitle: 'Produk Kami',
       featuresDescription:
-        'Nijushi Digital berkomitmen untuk terus menghadirkan produk dan layanan yang dapat membantu banyak pihak, dan berikut beberapa yang telah kami kerjakan:',
+        'Nijushi Corp. berkomitmen untuk terus menghadirkan produk dan layanan yang dapat membantu banyak pihak, dan berikut beberapa yang telah kami kerjakan:',
       featuresButton: 'Lihat Semua Produk',
       socialTitle: 'Mari Terhubung',
       socialDescription:
-        'Ikuti kami di media sosial untuk pembaruan, berita, dan konten di balik layar.',
+        'Ikuti kami di media sosial untuk pembaruan, berita, serta pemberitahuan lainnya',
       ctaTitle: 'Tertarik untuk Bekerja Sama?',
       ctaDescription: 'Anda dapat menghubungi kami sesegera mungkin! #YourDecision menanti.',
       ctaButton: 'Mulai Perjalanan',
@@ -96,13 +96,13 @@ const dictionaries = {
       metadataTitle: 'Tentang',
       heroTitle: '',
       heroDescription:
-        'Nijushi Digital adalah studio digital yang membangun website, alat, dan layanan lainnya untuk individu maupun bisnis yang membutuhkan solusi digital yang andal. Semua nya dalam kendali Anda, bukan kami!',
+        'Nijushi Corp. adalah studio digital yang membangun website, alat, dan layanan lainnya untuk individu maupun bisnis yang membutuhkan solusi digital yang andal. Semua nya dalam kendali Anda, bukan kami!',
       visionTitle: 'Visi Kami',
       visionLead: '"Menjadi partner bisnis terbaik anda"',
       visionSupport:
         'Kami percaya bisnis yang sehat seharus menguntungkan kedua belah pihak, bukan hanya satu pihak.',
       missionTitle: 'Misi Kami',
-      missionDescription: 'Prinsip yang menjadi panduan dalam setiap hal yang kami bangun di Nijushi Digital.',
+      missionDescription: 'Prinsip yang menjadi panduan dalam setiap hal yang kami bangun di Nijushi Corp.',
       missions: [
         {
           title: 'Membangun Produk Andal',
@@ -130,7 +130,7 @@ const dictionaries = {
       metadataTitle: 'Produk',
       title: 'Produk Kami',
       description:
-        'Daftar lengkap produk, situs web, dan alat yang telah dibangun dan dirawat oleh Nijushi Digital untuk membantu individu dan bisnis menemukan #YourDecision.',
+        'Daftar lengkap produk, situs web, dan alat yang telah dibangun dan dirawat oleh Nijushi Corp. untuk membantu individu dan bisnis menemukan #YourDecision.',
       visitProduct: 'Kunjungi Produk',
       github: 'GitHub',
     },
@@ -138,21 +138,21 @@ const dictionaries = {
       metadataTitle: 'Media Sosial',
       title: 'Media Sosial Kami',
       description:
-        'Tetap terhubung dan dapatkan pembaruan, berita, dan konten di balik layar dari Nijushi Digital melalui akun media sosial resmi kami di bawah ini.',
+        'Tetap terhubung dan dapatkan pembaruan, berita, dan konten di balik layar dari Nijushi Corp. melalui akun media sosial resmi kami di bawah ini.',
       warning:
         'Semua akun resmi tercantum di halaman ini. Akun lainnya yang Anda temukan di tempat lain tidak terafiliasi dengan kami.',
       reportTitle: 'Menemukan Akun Palsu?',
       reportDescription:
-        'Jika Anda menemukan akun yang mengatasnamakan Nijushi Digital atau merek kami, laporkan melalui Nishia Customer Support agar kami dapat bertindak sesegera mungkin.',
+        'Jika Anda menemukan akun yang mengatasnamakan Nijushi Corp. atau merek kami, laporkan melalui Nishia Customer Support agar kami dapat bertindak sesegera mungkin.',
       reportButton: 'Laporkan Sekarang',
     },
     legal: {
       privacyTitle: 'Kebijakan Privasi',
-      privacyDescription: 'Cara Nijushi Digital mengumpulkan, menggunakan, dan melindungi data Anda.',
+      privacyDescription: 'Cara Nijushi Corp. mengumpulkan, menggunakan, dan melindungi data Anda.',
       termsTitle: 'Ketentuan Layanan',
-      termsDescription: 'Syarat dan ketentuan untuk menggunakan layanan Nijushi Digital.',
+      termsDescription: 'Syarat dan ketentuan untuk menggunakan layanan Nijushi Corp.',
       cookieTitle: 'Kebijakan Cookie',
-      cookieDescription: 'Bagaimana Nijushi Digital menggunakan cookie dan teknologi pelacakan serupa.',
+      cookieDescription: 'Bagaimana Nijushi Corp. menggunakan cookie dan teknologi pelacakan serupa.',
     },
     footer: {
       company: 'Perusahaan',
@@ -160,12 +160,13 @@ const dictionaries = {
       home: 'Beranda',
       about: 'Tentang Perusahaan',
       product: 'Produk',
+      social: 'Media Sosial',
       privacy: 'Kebijakan Privasi',
       terms: 'Ketentuan Layanan',
       servicesFee: 'Kebijakan Biaya Layanan',
       cookiePolicy: 'Kebijakan Cookie',
       description: 'Memberdayakan dunia Anda melalui solusi digital yang cerdas.',
-      copyright: '© Nijushi Digital',
+      copyright: '© Nijushi Corp.',
       mainWebsite: 'Situs Utama Perusahaan',
       aboutCompany: 'Tentang Perusahaan Utama',
     },
@@ -191,11 +192,11 @@ const dictionaries = {
       scrollLanjut: 'Scroll To Continue Reading',
       featuresTitle: 'Our Products',
       featuresDescription:
-        'Nijushi Digital strives to always provide and create products and services that can help many parties, and here are some of the ones we have worked on:',
+        'Nijushi Corp. strives to always provide and create products and services that can help many parties, and here are some of the ones we have worked on:',
       featuresButton: 'See All Products',
       socialTitle: "Let's Connect",
       socialDescription:
-        'Follow us on social media for updates, news, and behind-the-scenes content.',
+        'Follow us on social media for updates, news, and other announcement.',
       ctaTitle: 'Interested in Working Together?',
       ctaDescription: 'You can contact us as soon as you can! #YourDecision awaits.',
       ctaButton: 'Start The Journey',
@@ -204,13 +205,13 @@ const dictionaries = {
       metadataTitle: 'About',
       heroTitle: "",
       heroDescription:
-        'Nijushi Digital is a digital studio that builds websites, tools and other services for individuals and businesses who need reliable digital solutions. Everything is in under your control, not ours!',
+        'Nijushi Corp. is a digital studio that builds websites, tools and other services for individuals and businesses who need reliable digital solutions. Everything is in under your control, not ours!',
       visionTitle: 'Our Vision',
       visionLead: '"Be your best business partner"',
       visionSupport:
         'We believe a healthy business should benefit both parties, not just one party.',
       missionTitle: 'Our Mission',
-      missionDescription: 'The principles that guide everything we build at Nijushi Digital.',
+      missionDescription: 'The principles that guide everything we build at Nijushi Corp.',
       missions: [
         {
           title: 'Building Reliable Products',
@@ -238,7 +239,7 @@ const dictionaries = {
       metadataTitle: 'Products',
       title: 'Our Products',
       description:
-        'A full list of products, websites, and tools that Nijushi Digital has built and maintained to help individuals and businesses find #YourDecision.',
+        'A full list of products, websites, and tools that Nijushi Corp. has built and maintained to help individuals and businesses find #YourDecision.',
       visitProduct: 'Visit Product',
       github: 'GitHub',
     },
@@ -246,21 +247,21 @@ const dictionaries = {
       metadataTitle: 'Social Media',
       title: 'Our Social Media',
       description:
-        'Stay connected and get the latest updates, news, and behind-the-scenes content from Nijushi Digital through our official social media accounts below.',
+        'Stay connected and get the latest updates, news, and behind-the-scenes content from Nijushi Corp. through our official social media accounts below.',
       warning:
         'All official accounts are listed on this page. Any other accounts you may find elsewhere are not affiliated with us.',
       reportTitle: 'Found a Fake Account?',
       reportDescription:
-        'If you come across an account impersonating Nijushi Digital or any of our brands, please report it to us through Nishia Customer Support so we can take action as soon as possible.',
+        'If you come across an account impersonating Nijushi Corp. or any of our brands, please report it to us through Nishia Customer Support so we can take action as soon as possible.',
       reportButton: 'Report It!',
     },
     legal: {
       privacyTitle: 'Privacy Policy',
-      privacyDescription: 'How Nijushi Digital collects, uses, and protects your personal data.',
+      privacyDescription: 'How Nijushi Corp. collects, uses, and protects your personal data.',
       termsTitle: 'Terms of Service',
-      termsDescription: 'Terms and conditions for using Nijushi Digital services.',
+      termsDescription: 'Terms and conditions for using Nijushi Corp. services.',
       cookieTitle: 'Cookie Policy',
-      cookieDescription: 'How Nijushi Digital uses cookies and similar tracking technologies.',
+      cookieDescription: 'How Nijushi Corp. uses cookies and similar tracking technologies.',
     },
     footer: {
       company: 'Company',
@@ -268,12 +269,13 @@ const dictionaries = {
       home: 'Home',
       about: 'About Company',
       product: 'Product',
+      social: 'Social Media',
       privacy: 'Privacy Policy',
       terms: 'Terms of Service',
       cookiePolicy: 'Cookie Policy',
       servicesFee: 'Service Fee Policy',
       description: 'Empowering your world through intelligent digital solutions.',
-      copyright: '© Nijushi Digital',
+      copyright: '© Nijushi Corp.',
       mainWebsite: 'Company Main Website',
       aboutCompany: 'About Main Company',
     },

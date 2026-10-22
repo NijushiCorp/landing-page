@@ -1,16 +1,16 @@
-# Nijushi Digital
+# Nijushi Corp.
 
-> Nijushi Digital empowers your digital future with intelligent solutions designed for those who value control and autonomy. The company builds and operates digital products and platforms, primarily serving the Indonesian market.
+> Nijushi Corp. empowers your digital future with intelligent solutions designed for those who value control and autonomy. The company builds and operates digital products and platforms, primarily serving the Indonesian market.
 
-Nijushi Digital's main website is available in Indonesian (/id) and English (/en). Visitors are automatically directed to the appropriate language version based on their location.
+Nijushi Corp.'s main website is available in Indonesian (/id) and English (/en). Visitors are automatically directed to the appropriate language version based on their location.
 
 ## Company
 
-- [Home](https://nijushidigital.biz.id/): Company overview and featured products
-- [About](https://nijushidigital.biz.id/about): Information about Nijushi Digital
-- [Products](https://nijushidigital.biz.id/product): Full list of products and services
-- [Contact / Social](https://nijushidigital.biz.id/social): Contact and social media channels
-- [Status Monitoring](https://status.nijushidigital.biz.id): Live uptime status of Nijushi Digital services
+- [Home](https://nijushicorp.biz.id/): Company overview and featured products
+- [About](https://nijushicorp.biz.id/about): Information about Nijushi Corp.
+- [Products](https://nijushicorp.biz.id/product): Full list of products and services
+- [Contact / Social](https://nijushicorp.biz.id/social): Contact and social media channels
+- [Status Monitoring](https://status.nijushicorp.biz.id): Live uptime status of Nijushi Corp. services
 
 ## Products
 
@@ -19,16 +19,16 @@ Nijushi Digital's main website is available in Indonesian (/id) and English (/en
 
 ## Legal
 
-- [Privacy Policy](https://nijushidigital.biz.id/privacy)
-- [Terms of Service](https://nijushidigital.biz.id/terms)
-- [Cookie Policy](https://nijushidigital.biz.id/cookie-policy)
-- [Service Fee Policy](https://nijushidigital.biz.id/service-fee)
+- [Privacy Policy](https://nijushicorp.biz.id/privacy)
+- [Terms of Service](https://nijushicorp.biz.id/terms)
+- [Cookie Policy](https://nijushicorp.biz.id/cookie-policy)
+- [Service Fee Policy](https://nijushicorp.biz.id/service-fee)
 
 ## Contact
 
-- Email: hello@nijushidigital.biz.id
+- Email: hello@nijushicorp.biz.id
 - WhatsApp (Customer Support): https://wa.me/6285163614050
-- GitHub: https://github.com/NijushiDigital
-- X (Twitter): https://x.com/nijushidigital
-- Instagram: https://instagram.com/nijushidigital
-- LinkedIn: https://www.linkedin.com/company/nijushidigital/
+- GitHub: https://github.com/nijushicorp
+- X (Twitter): https://x.com/nijushicorp
+- Instagram: https://instagram.com/nijushicorp
+- LinkedIn: https://www.linkedin.com/company/nijushicorp/

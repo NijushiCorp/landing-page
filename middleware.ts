@@ -30,8 +30,13 @@ export function middleware(request: NextRequest) {
   if (!preferredLocale) {
     if (isLocalhostRequest) {
       locale = acceptLanguage.toLowerCase().includes('id') ? 'id' : defaultLocale
-    } else if (request.geo?.country === 'ID') {
-      locale = 'id'
+    } else {
+      // `request.geo` was removed in Next 15; the edge runtime exposes the
+      // country via this header instead.
+      const country = request.headers.get('x-vercel-ip-country')
+      if (country === 'ID') {
+        locale = 'id'
+      }
     }
   }
 

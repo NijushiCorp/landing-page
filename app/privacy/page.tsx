@@ -2,8 +2,8 @@ import { Header } from '@/components/header'
 import { Footer } from '@/components/footer'
 
 export const metadata = {
-  title: 'Privacy Policy — Nijushi Digital',
-  description: 'How Nijushi Digital collects, uses, and protects your personal data.',
+  title: 'Privacy Policy — Nijushi Corp.',
+  description: 'How Nijushi Corp. collects, uses, and protects your personal data.',
 }
 
 export default function PrivacyPage() {
@@ -14,17 +14,17 @@ export default function PrivacyPage() {
       <p className="text-sm text-muted-foreground mb-2">Last updated: June 20, 2025</p>
       <h1 className="text-3xl font-bold text-foreground mb-6">Privacy Policy</h1>
       <p className="text-muted-foreground mb-10">
-        This Privacy Policy applies to Nijushi Digital and all products, services, platforms, and
-        digital solutions developed or operated by Nijushi Digital (collectively, "Services"). By
+        This Privacy Policy applies to Nijushi Corp. and all products, services, platforms, and
+        digital solutions developed or operated by Nijushi Corp. (collectively, "Services"). By
         using our Services, you agree to the practices described below.
       </p>
 
       <Section title="1. Who We Are">
         <p>
-          Nijushi Digital is a digital services company providing web development, mobile
+          Nijushi Corp. is a digital services company providing web development, mobile
           applications, UI/UX design, digital consulting, and related technology services. This
           policy covers our main platform and any sub-products or derivative services we operate
-          under the Nijushi Digital brand.
+          under the Nijushi Corp. brand.
         </p>
       </Section>
 
@@ -91,8 +91,8 @@ export default function PrivacyPage() {
         </ul>
         <p className="mt-3">
           To exercise any of these rights, contact us at{' '}
-          <a href="mailto:privacy@nijushidigital.biz.id" className="text-orange-500 hover:underline">
-            privacy@nijushidigital.biz.id
+          <a href="mailto:privacy@nijushicorp.biz.id" className="text-accent hover:underline">
+            privacy@nijushicorp.biz.id
           </a>
           .
         </p>
@@ -125,11 +125,11 @@ export default function PrivacyPage() {
       <Section title="10. Contact">
         <p>
           Questions about this policy? Reach us at{' '}
-          <a href="mailto:privacy@nijushidigital.biz.id" className="text-orange-500 hover:underline">
-            privacy@nijushidigital.biz.id
+          <a href="mailto:privacy@nijushicorp.biz.id" className="text-accent hover:underline">
+            privacy@nijushicorp.biz.id
           </a>{' '}
           or through our{' '}
-          <a href="/social" className="text-orange-500 hover:underline">
+          <a href="/social" className="text-accent hover:underline">
             contact page
           </a>
           .

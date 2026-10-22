@@ -28,17 +28,17 @@ const themeScript = `
 `
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://nijushidigital.biz.id'),
+  metadataBase: new URL('https://nijushicorp.biz.id'),
   title: {
-    default: "Nijushi Digital",
-    template: "%s | Nijushi Digital",
+    default: "Nijushi Corp.",
+    template: "%s | Nijushi Corp.",
   },
-  description: 'Nijushi Digital provides a wide range of digital services and goods to help everyone. Find #YourDecision with Nijushi Digital!',
+  description: 'Nijushi Corp. provides a wide range of digital services and goods to help everyone. Find #YourDecision with Nijushi Corp.!',
   
   openGraph: {
   images: [
     {
-      url: 'https://nijushidigital.biz.id/opengraph-image.png', // Must be an absolute URL
+      url: 'https://nijushicorp.biz.id/opengraph-image.png', // Must be an absolute URL
     },
   ],
   },
