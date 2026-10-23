@@ -155,10 +155,9 @@ export function Header({ locale }: HeaderProps) {
                 alt="Nijushi Corp. Logo"
                 width={48}
                 height={48}
-                className="w-full h-full shrink-0 block h-full w-full object-contain [html[data-theme=dark]_&]:hidden"
+                className="w-7 h-7 sm:w-8 sm:h-8 shrink-0"
               />
-              </div>
-              <span className="text-lg sm:text-lg md:text-xl font-bold text-foreground whitespace-nowrap truncate">Nijushi Corp.</span>
+              <span className="text-xs sm:text-md md:text-xl font-bold text-foreground whitespace-nowrap truncate">Nijushi Corp.</span>
             </div>
           </Link>
 
