@@ -131,25 +131,34 @@ export function Header({ locale }: HeaderProps) {
     <header
       className={`sticky top-0 z-50 border-b transition-colors duration-200 ${
         scrolled
-          ? 'border-border bg-surface/95 backdrop-blur-sm'
+          ? 'border-border bg-surface/75 backdrop-blur-lg'
           : 'border-transparent bg-background'
       }`}
     >
       <div
         className={`mx-auto grid max-w-6xl grid-cols-[1fr_auto_1fr] items-center px-4 transition-[padding] duration-200 ease-out sm:px-6 lg:px-8 ${
-          scrolled ? 'py-5' : 'py-4'
+          scrolled ? 'py-3 sm:py-5' : 'py-4 sm:py-4'
         }`}
       >
           <Link href={getLocalizedPath('/', resolvedLocale)} className="justify-self-start min-w-0">
             <div className="flex items-center gap-2 sm:gap-3 min-w-0">
-              <Image
+              <div className='w-7.5 h-7.5 sm:w-8 sm:h-8'>
+              <img
+                src="/logo-dark.png"
+                alt="Nijushi Corp. Logo"
+                width={48}
+                height={48}
+                className="w-full h-full shrink-0 hidden h-full w-full object-contain [html[data-theme=dark]_&]:block"
+              />
+              <img
                 src="/logo.png"
                 alt="Nijushi Corp. Logo"
                 width={48}
                 height={48}
-                className="w-7 h-7 sm:w-8 sm:h-8 shrink-0"
+                className="w-full h-full shrink-0 block h-full w-full object-contain [html[data-theme=dark]_&]:hidden"
               />
-              <span className="text-xs sm:text-md md:text-xl font-bold text-foreground whitespace-nowrap truncate">Nijushi Corp.</span>
+              </div>
+              <span className="text-lg sm:text-lg md:text-xl font-bold text-foreground whitespace-nowrap truncate">Nijushi Corp.</span>
             </div>
           </Link>
 
