@@ -142,7 +142,7 @@ export function Footer({ locale = 'en' }: FooterProps) {
                 onClick={switchLanguage}
                 className="inline-flex h-9 items-center gap-2 rounded-lg border border-surface-navy-foreground/25 px-3 text-sm font-medium text-surface-navy-foreground/80 transition-colors duration-200 hover:border-accent hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-surface-navy"
               >
-                {resolvedLocale === 'id' ? (
+                {resolvedLocale === 'en' ? (
                   <>
                     <ReactCountryFlag countryCode="US" svg />
                     <span>EN</span>
