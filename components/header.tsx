@@ -131,7 +131,7 @@ export function Header({ locale }: HeaderProps) {
     <header
       className={`sticky top-0 z-50 border-b transition-colors duration-200 ${
         scrolled
-          ? 'border-border bg-surface/75 backdrop-blur-lg'
+          ? 'border-border bg-surface/90 backdrop-blur-lg'
           : 'border-transparent bg-background'
       }`}
     >
