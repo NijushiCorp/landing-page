@@ -7,7 +7,7 @@ export const projects = [
     github: null,
   },
   {
-    logo: 'https://tipbox.idS/favicon.ico',
+    logo: 'https://tipbox.id/favicon.ico',
     title: 'TipBox',
     description: 'Leave that donation platform, because Sometipfor.me allows you to get tips from your fans with cheap fees and no limits',
     link: 'https://tipbox.id',

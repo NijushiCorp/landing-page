@@ -137,7 +137,7 @@ export function Header({ locale }: HeaderProps) {
     >
       <div
         className={`mx-auto grid max-w-6xl grid-cols-[1fr_auto_1fr] items-center px-4 transition-[padding] duration-200 ease-out sm:px-6 lg:px-8 ${
-          scrolled ? 'py-5' : 'py-4'
+          scrolled ? 'py-3 sm:py-5' : 'py-4 sm:py-4'
         }`}
       >
           <Link href={getLocalizedPath('/', resolvedLocale)} className="justify-self-start min-w-0">
@@ -147,9 +147,9 @@ export function Header({ locale }: HeaderProps) {
                 alt="Nijushi Corp. Logo"
                 width={48}
                 height={48}
-                className="w-7 h-7 sm:w-8 sm:h-8 shrink-0"
+                className="w-7.5 h-7.5 sm:w-8 sm:h-8 shrink-0"
               />
-              <span className="text-xs sm:text-md md:text-xl font-bold text-foreground whitespace-nowrap truncate">Nijushi Corp.</span>
+              <span className="text-md sm:text-md md:text-xl font-bold text-foreground whitespace-nowrap truncate">Nijushi Corp.</span>
             </div>
           </Link>
 
