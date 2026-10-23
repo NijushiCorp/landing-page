@@ -158,7 +158,7 @@ export function Header({ locale }: HeaderProps) {
                 className="w-7 h-7 sm:w-8 sm:h-8 shrink-0 block [html[data-theme=dark]_&]:hidden"
               />
               </div>
-              <span className="text-xs sm:text-md md:text-xl font-bold text-foreground whitespace-nowrap truncate">Nijushi Corp.</span>
+              <span className="text-lg sm:text-lg md:text-xl font-bold text-foreground whitespace-nowrap truncate">Nijushi Corp.</span>
             </div>
           </Link>
 
