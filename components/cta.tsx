@@ -10,7 +10,7 @@ export function CTA({ locale = 'en' }: CTAProps) {
   return (
     <section id="contact" className="bg-surface-tint">
       <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-20 lg:px-8">
-        <div className="rounded-card bg-background px-6 py-12 sm:px-10 sm:py-16 lg:px-16">
+        <div className="rounded-card bg-surface px-6 py-12 sm:px-10 sm:py-16 lg:px-16">
           <div className="mx-auto max-w-2xl space-y-6 text-center">
             <h2 className="text-3xl font-bold tracking-tight text-balance sm:text-4xl">
               {dict.ctaTitle}
