@@ -9,6 +9,14 @@ import { usePathname, useRouter } from 'next/dist/client/components/navigation'
 
 import ReactCountryFlag from "react-country-flag"
 
+const COMPANY_LINKS = [
+  { label: "Company Main Website", href: "https://nijushicorp.biz.id" },
+  { label: "About Main Company", href: "https://nijushicorp.biz.id/about" },
+  { label: "Privacy Policy", href: "https://nijushicorp.biz.id/privacy" },
+  { label: "Terms Of Service", href: "https://nijushicorp.biz.id/terms" },
+  { label: "Cookie Policy", href: "https://nijushicorp.biz.id/cookie-policy" },
+];
+
 type FooterProps = {
   locale?: Locale
 }
@@ -62,6 +70,7 @@ export function Footer({ locale = 'en' }: FooterProps) {
   }
 
   return (
+    <>
     <footer className="bg-surface-navy text-surface-navy-foreground">
       <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6 lg:px-8">
         <div className="grid gap-10 md:grid-cols-4 md:gap-8">
@@ -157,29 +166,32 @@ export function Footer({ locale = 'en' }: FooterProps) {
             </div>
           </div>
         </div>
-
-        <div className="mt-12 flex flex-col gap-3 border-t border-surface-navy-foreground/15 pt-6 text-xs text-surface-navy-foreground/60 sm:flex-row sm:items-center sm:justify-between">
-          <p>{dict.copyright}</p>
-          <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
-            <Link href="https://nijushicorp.biz.id" className="transition-colors duration-200 hover:text-accent">
-              {dict.mainWebsite}
-            </Link>
-            <span aria-hidden>•</span>
-            <Link href="https://nijushicorp.biz.id/about" className="transition-colors duration-200 hover:text-accent">
-              {dict.aboutCompany}
-            </Link>
-            <span aria-hidden>•</span>
-            <a
-              href="https://status.nijushicorp.biz.id"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="transition-colors duration-200 hover:text-accent"
-            >
-              {resolvedLocale === 'id' ? 'Status Layanan' : 'Status Monitoring'}
-            </a>
-          </div>
-        </div>
       </div>
     </footer>
+
+    
+      <footer className="bg-black px-5 py-4 text-xs text-white">
+        <div className="mx-auto flex max-w-5xl flex-col items-center gap-2 text-center">
+          <p className="text-sm">© Nijushi Corp.</p>
+
+          <div className="flex flex-wrap items-center justify-center gap-y-1">
+            {COMPANY_LINKS.map((l, i) => (
+              <span key={l.label} className="flex items-center">
+                {i > 0 ? <span className="mx-2">•</span> : null}
+                <Link href={l.href}>{l.label}</Link>
+              </span>
+            ))}
+          </div>
+
+          <img
+            src="/logo-footer.png"
+            width={80}
+            height={80}
+            alt="Logo Nijushi Corp."
+            className=''
+          />
+        </div>
+      </footer>
+      </>
   )
 }
