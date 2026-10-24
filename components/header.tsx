@@ -182,7 +182,7 @@ export function Header({ locale }: HeaderProps) {
               onClick={switchLanguage}
               className="inline-flex h-9 cursor-pointer items-center gap-2 rounded-lg border border-border px-3 text-sm font-medium text-muted-foreground transition-colors duration-200 hover:border-foreground/30 hover:text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background"
             >
-              {resolvedLocale === 'en' ? (
+              {resolvedLocale === 'id' ? (
                 <>
                   <ReactCountryFlag countryCode="US" svg />
                   <span>EN</span>
